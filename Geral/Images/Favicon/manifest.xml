@@ -1,0 +1,18 @@
+{
+    "name": "Inova\u00e7\u00e3o Media Brasil",
+    "short_name": "Inova\u00e7\u00e3o Media Brasil",
+    "icons": [
+        {
+            "src": "/Images/Favicon/android-chrome-192x192.png?v=3",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/Images/Favicon/android-chrome-256x256.png?v=3",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#11743c",
+    "background_color": "#11743c"
+}
