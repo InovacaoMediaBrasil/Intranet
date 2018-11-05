@@ -101,7 +101,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://webmail-seguro.com.br/editorainovacao.com.br/v2/">
+						<a href="https://webmail-seguro.com.br/inovacaomedia.com.br/v2/">
 						WebMail - Locaweb
 						<br />
 						<img src="Images/Dials/Locaweb.png" alt="SMTP - Locaweb" />
