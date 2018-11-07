@@ -115,10 +115,17 @@
 						</a>
 					</li>
 					<li>
-						<a href="http://www.wakatime.com">
+						<a href="https://www.wakatime.com">
 						Wakatime
 						<br />
 						<img src="Images/Dials/Wakatime.png" alt="Wakatime" />
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com">
+						GitHub
+						<br />
+						<img src="Images/Dials/GitHub.png" alt="GitHub" />
 						</a>
 					</li>
 					<li>
