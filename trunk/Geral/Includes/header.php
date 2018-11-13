@@ -3,7 +3,7 @@ $schema = "http";
 if(isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on")
     $schema .= "s";
 define("BASE", $schema . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]); 
-define("LAST_UPDATE", "2018-10-25T202800");
+define("LAST_UPDATE", "2018-11-12T202100");
 ?>
 <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

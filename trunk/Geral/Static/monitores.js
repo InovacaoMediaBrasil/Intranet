@@ -181,7 +181,7 @@ function populateMonitor(monitor){
 	switch(monitor.CurrentStatus)
 	{
 		case 0:
-			className = "default";
+			className = "info";
 		break;
 		case 1:
 			className = "danger";
@@ -193,7 +193,7 @@ function populateMonitor(monitor){
 			className = "warning";
 		break;
 	}
-	var div = "<div class='col-md-2 bg-" + className + "' style='14px; height: 60px;border:1px solid #000;padding: 2px;'>";
+	var div = "<div class='col-md-2 bg-" + className + "' style='16px; height: 60px;border:1px solid #000;padding: 2px;'>";
 	div += monitor.Name + " <br /> " + ToReadableTime(ToJavaScriptDate(monitor.LastStatusDate));
 	div += "</div>";
 	$("#monitors").append(div);
