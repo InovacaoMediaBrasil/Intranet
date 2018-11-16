@@ -87,14 +87,14 @@
 						</a>
 					</li>
 					<li>
-						<a href="http://centraldocliente.locaweb.com.br">
+						<a href="https://centraldocliente.locaweb.com.br">
 						Locaweb - Central do cliente
 						<br />
 						<img src="Images/Dials/Locaweb.png" alt="Locaweb" />
 						</a>
 					</li>
 					<li>
-						<a href="http://smtplw.com.br">
+						<a href="https://smtplw.com.br">
 						SMTP - Locaweb
 						<br />
 						<img src="Images/Dials/Locaweb.png" alt="SMTP - Locaweb" />
