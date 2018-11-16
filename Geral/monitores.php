@@ -30,8 +30,8 @@
 	<body>
 		<div style="padding:0; margin: 0;">
 			<div id="dashboard">
-				<div>
-					<iframe src="https://kibana.editorainovacao.com.br/app/kibana#/dashboard/66890430-94e4-11e8-b16f-0f2557bd65ce?_g=(refreshInterval%3A(display%3A'5%20seconds'%2Cpause%3A!f%2Csection%3A1%2Cvalue%3A5000)%2Ctime%3A(from%3Anow-12h%2Cmode%3Aquick%2Cto%3Anow))&embed=true" frameborder="no"></iframe>
+				<div>								 
+					<iframe src="https://kibana.editorainovacao.com.br/app/kibana#/dashboard/66890430-94e4-11e8-b16f-0f2557bd65ce?_g=(refreshInterval%3A('%24%24hashKey'%3A'object%3A250'%2Cdisplay%3A'5%20seconds'%2Cpause%3A!f%2Csection%3A1%2Cvalue%3A5000)%2Ctime%3A(from%3Anow-48h%2Cmode%3Arelative%2Cto%3Anow))&embed=true" frameborder="no"></iframe>
 				</div>
 				<div>
 					<iframe src="https://kibana.editorainovacao.com.br/app/kibana#/dashboard/7cbc4420-ccb5-11e8-93ec-1f30497e4470?embed=true&_g=(refreshInterval%3A('%24%24hashKey'%3A'object%3A525'%2Cdisplay%3A'1%20minute'%2Cpause%3A!f%2Csection%3A2%2Cvalue%3A60000)%2Ctime%3A(from%3Anow-5y%2Cmode%3Aquick%2Cto%3Anow))" frameborder="no"></iframe>
