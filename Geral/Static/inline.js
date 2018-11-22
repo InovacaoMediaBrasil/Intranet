@@ -373,7 +373,7 @@ if (typeof jQuery === "undefined")
 		console.warn("Visualizador de Pedidos fingerprint: " + fingerprint);
 		getInfoFromVisualizadorAPI("Fingerprint/?fingerprint=" + fingerprint, "GET", null, function (data) {
 			if(data.Success) 
-				getPartnerByExtension(data.extension); 
+				getPartnerByExtension(data.Extension); 
 		});		
 	}
     
