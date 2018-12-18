@@ -39,13 +39,6 @@
                 </a>
             </li>
             <li>
-                <a href="<?php echo BASE; ?>marketing">
-                    Marketing / Edição
-                    <br />
-                    <img src="Images/Dials/Marketing.png" alt="Marketing" />
-                </a>
-            </li>
-            <li>
                 <a href="<?php echo BASE; ?>sac">
                     SAC
                     <br />
@@ -53,17 +46,25 @@
                 </a>
             </li>
             <li>
-                <a href="<?php echo BASE; ?>supervisao">
-                    Supervisão
+                <a href="<?php echo BASE; ?>home">
+                    Home Office
                     <br />
-                    <img src="Images/Dials/Supervisao.png" alt="SAC" />
+                    <img src="Images/Dials/Home.png" alt="Home Office" />
                 </a>
             </li>
+
             <li>
                 <a href="<?php echo BASE; ?>operacao">
                     Operação
                     <br />
                     <img src="Images/Dials/Operacao.png" alt="Operação" />
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo BASE; ?>supervisao">
+                    Supervisão
+                    <br />
+                    <img src="Images/Dials/Supervisao.png" alt="SAC" />
                 </a>
             </li>
             <li>
@@ -78,6 +79,13 @@
                     TI
                     <br />
                     <img src="Images/Dials/TI.png" alt="TI" />
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo BASE; ?>marketing">
+                    Marketing / Edição
+                    <br />
+                    <img src="Images/Dials/Marketing.png" alt="Marketing" />
                 </a>
             </li>
         </ul>
