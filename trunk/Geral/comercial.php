@@ -13,6 +13,7 @@
 <body>
     <section class="operation">
         <ul class="dials">
+
             <li>
                 <a href="http://help.editorainovacao.com.br">
                     <div class="monitor" data-monitor="Help Desk - HESK"></div>
@@ -27,6 +28,14 @@
                     Total IP
                     <br />
                     <img src="Images/Dials/TotalIP.png" alt="Total IP" />
+                </a>
+            </li>
+            <li>
+                <a href="https://webmail-seguro.com.br/inovacaomedia.com.br/">
+                    <div class="monitor" data-monitor="Help Desk - HESK"></div>
+                    Webmail Locaweb
+                    <br />
+                    <img src="Images/Dials/Webmail.png" alt="HESK" />
                 </a>
             </li>
 			<li>

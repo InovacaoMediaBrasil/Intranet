@@ -69,6 +69,14 @@
                 </a>
             </li>
             <li>
+                <a href="https://webmail-seguro.com.br/inovacaomedia.com.br/">
+                    <div class="monitor" data-monitor="Help Desk - HESK"></div>
+                    Webmail Locaweb
+                    <br />
+                    <img src="Images/Dials/Webmail.png" alt="HESK" />
+                </a>
+            </li>
+            <li>
 				<a href="https://mercadolivre.com.br">
 					Mercado Livre
 					<br />
