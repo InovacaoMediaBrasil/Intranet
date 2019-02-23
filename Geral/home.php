@@ -14,8 +14,7 @@
     <section class="operation">
         <ul class="dials">
             <li>
-                <a href="http://192.168.1.235:8081/">
-					<div class="monitor" data-monitor="WMW Vendas"> </div>
+                <a href="http://192.168.1.235:8081/">					
                     WMW Vendas
                     <br />
                     <img src="Images/Dials/WMWVendas.png" alt="WMW Vendas" />
@@ -30,8 +29,7 @@
                 </a>
             </li>
             <li>
-                <a href="http://192.168.1.194">
-					<div class="monitor" data-monitor="Total IP"> </div>
+                <a href="http://192.168.1.194">				
                     Total IP
                     <br />
                     <img src="Images/Dials/TotalIP.png" alt="Total IP" />
@@ -42,7 +40,7 @@
                     <div class="monitor" data-monitor="Help Desk - HESK"></div>
                     Webmail Locaweb
                     <br />
-                    <img src="Images/Dials/Webmail.png" alt="HESK" />
+                    <img src="Images/Dials/Locaweb.png" alt="HESK" />
                 </a>
             </li>
             <li>

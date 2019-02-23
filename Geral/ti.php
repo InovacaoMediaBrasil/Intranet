@@ -9,22 +9,14 @@
 	<body>
 		<section class="operation">
 			<ul class="dials">
-				<li>
-					<a href="https://help.editorainovacao.com.br/admin/admin_main.php">
-						<div class="monitor" data-monitor="Help Desk - HESK"></div>
-						Help Desk [HESK]
-						<br />
-						<img src="Images/Dials/Hesk.png" alt="HESK" />
-					</a>
-				</li>
-				<li>
-                	<a href="https://webmail-seguro.com.br/inovacaomedia.com.br/">
-                    	<div class="monitor" data-monitor="Help Desk - HESK"></div>
-                    	Webmail Locaweb
-                    	<br />
-                    	<img src="Images/Dials/Webmail.png" alt="HESK" />
-                	</a>
-            	</li>
+					<li>
+						<a href="https://help.editorainovacao.com.br/admin/admin_main.php">
+							<div class="monitor" data-monitor="Help Desk - HESK"></div>
+							Help Desk [HESK]
+							<br />
+							<img src="Images/Dials/Hesk.png" alt="HESK" />
+						</a>
+					</li>
 					<li>
 						<a href="http://visualizador.editorainovacao.com.br">
 							<div class="monitor" data-monitor="Visualizador de Pedidos"></div>
@@ -55,7 +47,7 @@
 							<br />
 							<img src="Images/Dials/TotalIP.png" alt="Total IP" />
 						</a>
-					</li>					
+					</li>
 					<li>
 						<a href="https://portal.maxipago.net/vpos/Login">
 						Maxi pago!
@@ -90,7 +82,7 @@
 							<br />
 							<img src="Images/Dials/Kibana.png" alt="Kibana" />
 						</a>
-					</li>					
+					</li>
 					<li>
 						<a href="http://www.uptimerobot.com">
 						Uptime Robot
@@ -104,7 +96,7 @@
 						<br />
 						<img src="Images/Dials/TI.png" alt="FDept. de TI" />
 						</a>
-					</li>					
+					</li>
 					<li>
 						<a href="https://www.inovacaomedia.com.br">
 							<div class="monitor" data-monitor="Inovação Media Brasil"></div>
@@ -168,7 +160,7 @@
 							<br />
 							<img src="Images/Dials/TaniaSilva.png" alt="Tânia Silva" />
 						</a>
-					</li>					
+					</li>
 					<li>
 						<a href="http://www.a12.com/tv-aparecida/programas/vida-com-arte">
 						Vida com Arte
@@ -219,14 +211,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="https://mercadolivre.com.br">
+					<a href="https://www.mercadolivre.com.br">
 						Mercado Livre
 						<br />
 						<img src="Images/Dials/MercadoLivre.png" alt="Mercado Livre" />
 					</a>
 				</li>
 				<li>
-					<a href="https://rdstation.com">
+					<a href="https://www.rdstation.com">
 						RD Station
 						<br />
 						<img src="Images/Dials/RDStation.png" alt="RD Station" />

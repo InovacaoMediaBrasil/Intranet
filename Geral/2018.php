@@ -15,31 +15,10 @@ define("LAST_UPDATE", "2018-09-11T193300");
 		<?php require_once("Includes/favicon.php"); ?>
 		<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
 		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
-		<link type="text/css" rel="stylesheet" href="Static/xzoom.css" />
+		<link type="text/css" rel="stylesheet" href="https://unpkg.com/xzoom/dist/xzoom.css" />
 		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css" />
 		<link type="text/css" rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css">
 		<link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-		<script type="text/javascript" src="https://assets.listadecompras.editorainovacao.com.br/js/listaDeCompras.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/i18n/defaults-pt_BR.min.js"></script>
-		<script type="text/javascript" src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-		<script type="text/javascript" src="Static/xzoom.min.js"></script>
-		<script type="text/javascript" src="Static/utils.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
-		<script type="text/javascript" src="Static/dials.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
-		<script type="text/javascript" src="Static/scripts.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
-		<script type="text/javascript" src="Static/banners.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
-		<script type="text/javascript" src="Static/media.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
-		<script type="text/javascript" src="Static/record.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>		
-		<script type="text/javascript" src="Static/wmwVendas.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
-		<script type="text/javascript" src="Static/totalIp.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
-		<script type="text/javascript" src="Static/monitors.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
-		<script type="text/javascript" src="Static/ranking.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
-		<script type="text/javascript" src="Static/inline.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
 		<style type="text/css">
 			.monitor { 
 			float: right;
@@ -82,7 +61,7 @@ define("LAST_UPDATE", "2018-09-11T193300");
 											<div class="monitor" data-monitor="Help Desk - HESK"></div>
 											<h4 class="card-title" style="font-size: 12px;">Help Desk</h4>
 										</div>
-										<img class="card-img-top" src="Images/HESK.png" alt="HESK - Help Desk" />            
+										<img class="card-img-top" src="Images/Dials/HESK.png" alt="HESK - Help Desk" />            
 									</div>
 								</div>				
 							</div>
@@ -109,7 +88,11 @@ define("LAST_UPDATE", "2018-09-11T193300");
 					<?php require_once("includes/sidebar.php");	?>
 				</div>
 			</div>
-			<?php require_once("includes/footer.php"); ?>  
+			<?php require_once("includes/footer.php"); ?>
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+			<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+			<script type="text/javascript" src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+			<script type="text/javascript" src="Static/ranking.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
 		</div>
 	</body>
 </html>

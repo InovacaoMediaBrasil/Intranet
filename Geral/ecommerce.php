@@ -73,7 +73,7 @@
                     <div class="monitor" data-monitor="Help Desk - HESK"></div>
                     Webmail Locaweb
                     <br />
-                    <img src="Images/Dials/Webmail.png" alt="HESK" />
+                    <img src="Images/Dials/Locaweb.png" alt="HESK" />
                 </a>
             </li>
             <li>
@@ -84,7 +84,7 @@
 				</a>
             </li>
 			<li>
-				<a href="https://rdstation.com">
+				<a href="https://www.rdstation.com">
 					RD Station
 					<br />
 					<img src="Images/Dials/RDStation.png" alt="RD Station" />
@@ -127,7 +127,7 @@
                     <img src="Images/Dials/VisualizadorDePedidos.png" alt="Visualizador de Pedidos" />
                 </a>
             </li>
-			<li>
+            <li>
                 <a href="http://vendas.editorainovacao.com.br/">
                     <div class="monitor" data-monitor="WMW Vendas"></div>
                     WMW Vendas

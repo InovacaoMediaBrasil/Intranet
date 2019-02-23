@@ -12,7 +12,7 @@
 
 <body>
     <section class="operation">
-        <ul class="dials">			
+        <ul class="dials">
             <li>
                 <a href="http://192.168.1.235:8081/">
                     <div class="monitor" data-monitor="WMW Vendas"></div>
@@ -60,7 +60,7 @@
                     <br />
                     <img src="Images/Dials/CanalDoArtesanato.png" alt="Canal do Artesanato" />
                 </a>
-            </li>            
+            </li>
             <li>
                 <a href="https://www.vitrinedoartesanatonatv.com.br">
                     <div class="monitor" data-monitor="Vitrine do Artesanato na TV"></div>

@@ -57,7 +57,7 @@
                     <div class="monitor" data-monitor="Help Desk - HESK"></div>
                     Webmail Locaweb
                     <br />
-                    <img src="Images/Dials/Webmail.png" alt="HESK" />
+                    <img src="Images/Dials/Locaweb.png" alt="HESK" />
                 </a>
             </li>
             <li>
@@ -127,7 +127,7 @@
 					<br />
 					<img src="Images/Dials/TI.png" alt="FDept. de TI" />
 				</a>
-			</li>			
+			</li>
         </ul>
         <div style="clear:both;"></div>
         </div>

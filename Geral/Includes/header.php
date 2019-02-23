@@ -3,14 +3,13 @@ $schema = "http";
 if(isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on")
     $schema .= "s";
 define("BASE", $schema . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]); 
-define("LAST_UPDATE", "2018-11-12T202100");
+define("LAST_UPDATE", "2019-02-23-013500");
 ?>
 <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex,nofollow">
     <title>Intranet - Inovação Media Brasil</title>
 <?php require_once("favicon.php"); ?>
-
     <link type="text/css" rel="stylesheet" href="Static/styles.css?updated=<?php echo LAST_UPDATE; ?>" />
     <link type="text/css" rel="stylesheet" href="Static/jquery.tip_cards.css" />
     <link type="text/css" rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/trontastic/jquery-ui.css" />

@@ -26,7 +26,7 @@
                     <div class="monitor" data-monitor="Help Desk - HESK"></div>
                     Webmail Locaweb
                     <br />
-                    <img src="Images/Dials/Webmail.png" alt="HESK" />
+                    <img src="Images/Dials/Locaweb.png" alt="HESK" />
                 </a>
             </li>
             <li>
@@ -44,7 +44,7 @@
                     <br />
                     <img src="Images/Dials/VisualizadorDePedidos.png" alt="Visualizador de Pedidos" />
                 </a>
-            </li>			
+            </li>
             <li>
                 <a href="http://192.168.1.235:8081/">
                     <div class="monitor" data-monitor="WMW Vendas"></div>
@@ -91,14 +91,6 @@
                     Canal do Artesanato
                     <br />
                     <img src="Images/Dials/CanalDoArtesanato.png" alt="Canal do Artesanato" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.programaartebrasil.com.br">
-                    <div class="monitor" data-monitor="Programa Arte Brasil"></div>
-                    Programa Arte Brasil
-                    <br />
-                    <img src="Images/Dials/ArteBrasil.png" alt="Programa Arte Brasil" />
                 </a>
             </li>
             <li>
@@ -172,7 +164,7 @@
 					<br />
 					<img src="Images/Dials/TI.png" alt="FDept. de TI" />
 				</a>
-			</li>			          
+			</li>         
         </ul>
         <div style="clear:both;"></div>
         </div>

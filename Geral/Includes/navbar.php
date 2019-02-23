@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #98C59E">
 	<a class="navbar-brand" href="https://www.editorainovacao.com.br/" title="Editora Inovação" data-toggle="tooltip" data-placement="top">
-	<img src="Images/EditoraInovacao.png" alt="Editora Inovação" class="d-inline-block align-top" width="35" height="35"/> 
+	<img src="Images/Dials/EditoraInovacao.png" alt="Editora Inovação" class="d-inline-block align-top" width="35" height="35"/> 
 	</a>
 	<ul class="navbar-nav mr-auto">
 		<li class="nav-item active">
@@ -19,10 +19,6 @@
 			<li class="list-group-item">
 				WMW Vendas 
 				<div class="monitor" data-monitor="WMW Vendas"></div>
-			</li>
-			<li class="list-group-item">
-				Inovação CRM
-				<div class="monitor" data-monitor="Inovação CRM disabled"></div>
 			</li>
 			<li class="list-group-item">
 				Total IP 
