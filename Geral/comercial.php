@@ -35,7 +35,7 @@
                     <div class="monitor" data-monitor="Help Desk - HESK"></div>
                     Webmail Locaweb
                     <br />
-                    <img src="Images/Dials/Webmail.png" alt="HESK" />
+                    <img src="Images/Dials/Locaweb.png" alt="HESK" />
                 </a>
             </li>
 			<li>
