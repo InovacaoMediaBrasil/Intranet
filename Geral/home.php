@@ -15,7 +15,7 @@
         <ul class="dials">
             <li>
                 <a href="http://192.168.1.235:8081/">
-					<!-- <div class="monitor" data-monitor="WMW Vendas"> </div> -->
+					<div class="monitor" data-monitor="WMW Vendas"> </div>
                     WMW Vendas
                     <br />
                     <img src="Images/Dials/WMWVendas.png" alt="WMW Vendas" />
@@ -31,7 +31,7 @@
             </li>
             <li>
                 <a href="http://192.168.1.194">
-				<!--	<div class="monitor" data-monitor="Total IP"> </div> -->
+					<div class="monitor" data-monitor="Total IP"> </div>
                     Total IP
                     <br />
                     <img src="Images/Dials/TotalIP.png" alt="Total IP" />
@@ -67,14 +67,6 @@
                     Canal do Artesanato
                     <br />
                     <img src="Images/Dials/CanalDoArtesanato.png" alt="Canal do Artesanato" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.programaartebrasil.com.br">
-                    <div class="monitor" data-monitor="Programa Arte Brasil"></div>
-                    Programa Arte Brasil
-                    <br />
-                    <img src="Images/Dials/ArteBrasil.png" alt="Programa Arte Brasil" />
                 </a>
             </li>
             <li>
@@ -142,13 +134,6 @@
 					Dept. de TI
 					<br />
 					<img src="Images/Dials/TI.png" alt="FDept. de TI" />
-				</a>
-			</li>
-			<li>
-				<a href="https://marketing.editorainovacao.com.br">
-					Dept. de Marketing
-					<br />
-					<img src="Images/Dials/Marketing.png" alt="Dept. de Marketing" />
 				</a>
 			</li>
         </ul>

@@ -9,36 +9,28 @@
 	<body>
 		<section class="operation">
 			<ul class="dials">
-					<li>
-						<a href="https://help.editorainovacao.com.br/admin/admin_main.php">
-							<div class="monitor" data-monitor="Help Desk - HESK"></div>
-							Help Desk [HESK]
-							<br />
-							<img src="Images/Dials/Hesk.png" alt="HESK" />
-						</a>
-					</li>
-					<li>
-                <a href="https://webmail-seguro.com.br/inovacaomedia.com.br/">
-                    <div class="monitor" data-monitor="Help Desk - HESK"></div>
-                    Webmail Locaweb
-                    <br />
-                    <img src="Images/Dials/Webmail.png" alt="HESK" />
-                </a>
-            </li>
+				<li>
+					<a href="https://help.editorainovacao.com.br/admin/admin_main.php">
+						<div class="monitor" data-monitor="Help Desk - HESK"></div>
+						Help Desk [HESK]
+						<br />
+						<img src="Images/Dials/Hesk.png" alt="HESK" />
+					</a>
+				</li>
+				<li>
+                	<a href="https://webmail-seguro.com.br/inovacaomedia.com.br/">
+                    	<div class="monitor" data-monitor="Help Desk - HESK"></div>
+                    	Webmail Locaweb
+                    	<br />
+                    	<img src="Images/Dials/Webmail.png" alt="HESK" />
+                	</a>
+            	</li>
 					<li>
 						<a href="http://visualizador.editorainovacao.com.br">
 							<div class="monitor" data-monitor="Visualizador de Pedidos"></div>
 							Visualizador de Pedidos
 							<br />
 							<img src="Images/Dials/VisualizadorDePedidos.png" alt="Visualizador de Pedidos" />
-						</a>
-					</li>
-					<li>
-						<a href="http://crm.editorainovacao.com.br/">
-							<div class="monitor" data-monitor="Inovação CRM"></div>
-							Inovação CRM
-							<br />
-							<img src="Images/Dials/InovacaoCRM.png" alt="Inovacão CRM" />
 						</a>
 					</li>
 					<li>
@@ -63,30 +55,7 @@
 							<br />
 							<img src="Images/Dials/TotalIP.png" alt="Total IP" />
 						</a>
-					</li>
-					<li>
-						<a href="http://integracao.editorainovacao.com.br">
-							<div class="monitor" data-monitor="Integração Service - Intranet"></div>
-							Integração Service
-							<br />
-							<img src="Images/Dials/IntegracaoService.png" alt="Integração Service" />
-						</a>
-					</li>
-					<li>
-						<a href="https://trello.com/">
-						Trello
-						<br />
-						<img src="Images/Dials/Trello.png" alt="Trello" />
-						</a>
-					</li>
-					<li>
-						<a href="http://svn.editorainovacao.com.br/svn/">
-							<div class="monitor" data-monitor="Visual SVN Server"></div>
-							Visual SVN Server
-							<br />
-							<img src="Images/Dials/VisualSVN.png" alt="Visual SVN Server" />
-						</a>
-					</li>
+					</li>					
 					<li>
 						<a href="https://portal.maxipago.net/vpos/Login">
 						Maxi pago!
@@ -121,21 +90,7 @@
 							<br />
 							<img src="Images/Dials/Kibana.png" alt="Kibana" />
 						</a>
-					</li>
-					<li>
-						<a href="https://www.wakatime.com">
-						Wakatime
-						<br />
-						<img src="Images/Dials/Wakatime.png" alt="Wakatime" />
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com">
-						GitHub
-						<br />
-						<img src="Images/Dials/GitHub.png" alt="GitHub" />
-						</a>
-					</li>
+					</li>					
 					<li>
 						<a href="http://www.uptimerobot.com">
 						Uptime Robot
@@ -149,14 +104,7 @@
 						<br />
 						<img src="Images/Dials/TI.png" alt="FDept. de TI" />
 						</a>
-					</li>
-					<li>
-						<a href="https://marketing.editorainovacao.com.br">
-						Dept. de Marketing
-						<br />
-						<img src="Images/Dials/Marketing.png" alt="Dept. de Marketing" />
-						</a>
-					</li>
+					</li>					
 					<li>
 						<a href="https://www.inovacaomedia.com.br">
 							<div class="monitor" data-monitor="Inovação Media Brasil"></div>
@@ -220,15 +168,7 @@
 							<br />
 							<img src="Images/Dials/TaniaSilva.png" alt="Tânia Silva" />
 						</a>
-					</li>
-					<li>
-						<a href="https://www.programaartebrasil.com.br">
-							<div class="monitor" data-monitor="Programa Arte Brasil"></div>
-							Programa Arte Brasil
-							<br />
-							<img src="Images/Dials/ArteBrasil.png" alt="Programa Arte Brasil" />
-						</a>
-					</li>
+					</li>					
 					<li>
 						<a href="http://www.a12.com/tv-aparecida/programas/vida-com-arte">
 						Vida com Arte

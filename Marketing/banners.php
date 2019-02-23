@@ -17,5 +17,4 @@ foreach($fileNames as $fileName){
 	$items[] = $item;
 }
 echo json_encode($items);
-
 ?>
