@@ -11,7 +11,7 @@ const dials = [
         "Monitor": true,
         "MonitorName": "Visualizador de Pedidos",
         "Href": "https://visualizador.editorainovacao.com.br",
-        "Image": "isualizadorDePedidos.png"
+        "Image": "VisualizadorDePedidos.png"
     },
     {
         "Name": "WMW vendas",
@@ -33,27 +33,6 @@ const dials = [
         "MonitorName": "Totap IP",
         "Href": "https://totalip.editorainovacao.com.br",
         "Image": "TotalIP.png"
-    },
-    {
-        "Name": "Integração Service",
-        "Monitor": true,
-        "MonitorName": "Integração Service - Intranet",
-        "Href": "https://integracao.editorainovacao.com.br",
-        "Image": "IntegracaoService.png"
-    },
-    {
-        "Name": "Trello",
-        "Monitor": false,
-        "MonitorName": "",
-        "Href": "https://trello.com",
-        "Image": "Trello.png"
-    },
-    {
-        "Name": "Visual SVN Server",
-        "Monitor": true,
-        "MonitorName": "Visual SVN Server",
-        "Href": "https://svn.editorainovacao.com.br/svn/",
-        "Image": "VisualSVN.png"
     },
     {
         "Name": "Maxi Pago!",
@@ -84,25 +63,11 @@ const dials = [
 		"Image": "Locaweb.png"
 	},
 	{
-		"Name": "Inovação CRM",
-		"Monitor": true,
-		"MonitorName": "Inovação CRM",
-		"Href": "https://crm.inovacaomedia.com.br",
-		"Image": "InovacaoCRM.png"
-	},
-	{
 		"Name": "Kibana",
 		"Monitor": false,
 		"MonitorName": "",
 		"Href": "https://kibana.editorainovacao.com.br",
 		"Imagem": "Kibana.png"
-	},
-	{
-		"Name": "GitHub",
-		"Monitor": false,
-		"MonitorName": "",
-		"Href": "https://github.com",
-		"Image": "GitHub.png"
 	},
 	{
 		"Name":"Uptime Robot",
