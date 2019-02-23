@@ -77,14 +77,14 @@
                 </a>
             </li>
             <li>
-				<a href="https://mercadolivre.com.br">
+				<a href="https://www.mercadolivre.com.br">
 					Mercado Livre
 					<br />
 					<img src="Images/Dials/MercadoLivre.png" alt="Mercado Livre" />
 				</a>
             </li>
 			<li>
-				<a href="https://rdstation.com">
+				<a href="https://www.rdstation.com">
 					RD Station
 					<br />
 					<img src="Images/Dials/RDStation.png" alt="RD Station" />
@@ -127,14 +127,6 @@
                     <img src="Images/Dials/VisualizadorDePedidos.png" alt="Visualizador de Pedidos" />
                 </a>
             </li>
-			<li>
-				<a href="http://crm.editorainovacao.com.br/">
-					<div class="monitor" data-monitor="Inovação CRM"></div>
-					Inovação CRM
-					<br />
-					<img src="Images/Dials/InovacaoCRM.png" alt="Inovacão CRM" />
-				</a>
-			</li>
             <li>
                 <a href="http://vendas.editorainovacao.com.br/">
                     <div class="monitor" data-monitor="WMW Vendas"></div>
@@ -156,14 +148,6 @@
                     Canal do Artesanato
                     <br />
                     <img src="Images/Dials/CanalDoArtesanato.png" alt="Canal do Artesanato" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.programaartebrasil.com.br">
-                    <div class="monitor" data-monitor="Programa Arte Brasil"></div>
-                    Programa Arte Brasil
-                    <br />
-                    <img src="Images/Dials/ArteBrasil.png" alt="Programa Arte Brasil" />
                 </a>
             </li>
             <li>
@@ -229,13 +213,6 @@
 					Dept. de TI
 					<br />
 					<img src="Images/Dials/TI.png" alt="FDept. de TI" />
-				</a>
-			</li>
-			<li>
-				<a href="https://marketing.editorainovacao.com.br">
-					Dept. de Marketing
-					<br />
-					<img src="Images/Dials/Marketing.png" alt="Dept. de Marketing" />
 				</a>
 			</li>
         </ul>

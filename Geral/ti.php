@@ -18,27 +18,11 @@
 						</a>
 					</li>
 					<li>
-                <a href="https://webmail-seguro.com.br/inovacaomedia.com.br/">
-                    <div class="monitor" data-monitor="Help Desk - HESK"></div>
-                    Webmail Locaweb
-                    <br />
-                    <img src="Images/Dials/Webmail.png" alt="HESK" />
-                </a>
-            </li>
-					<li>
 						<a href="http://visualizador.editorainovacao.com.br">
 							<div class="monitor" data-monitor="Visualizador de Pedidos"></div>
 							Visualizador de Pedidos
 							<br />
 							<img src="Images/Dials/VisualizadorDePedidos.png" alt="Visualizador de Pedidos" />
-						</a>
-					</li>
-					<li>
-						<a href="http://crm.editorainovacao.com.br/">
-							<div class="monitor" data-monitor="Inovação CRM"></div>
-							Inovação CRM
-							<br />
-							<img src="Images/Dials/InovacaoCRM.png" alt="Inovacão CRM" />
 						</a>
 					</li>
 					<li>
@@ -62,29 +46,6 @@
 							Total IP
 							<br />
 							<img src="Images/Dials/TotalIP.png" alt="Total IP" />
-						</a>
-					</li>
-					<li>
-						<a href="http://integracao.editorainovacao.com.br">
-							<div class="monitor" data-monitor="Integração Service - Intranet"></div>
-							Integração Service
-							<br />
-							<img src="Images/Dials/IntegracaoService.png" alt="Integração Service" />
-						</a>
-					</li>
-					<li>
-						<a href="https://trello.com/">
-						Trello
-						<br />
-						<img src="Images/Dials/Trello.png" alt="Trello" />
-						</a>
-					</li>
-					<li>
-						<a href="http://svn.editorainovacao.com.br/svn/">
-							<div class="monitor" data-monitor="Visual SVN Server"></div>
-							Visual SVN Server
-							<br />
-							<img src="Images/Dials/VisualSVN.png" alt="Visual SVN Server" />
 						</a>
 					</li>
 					<li>
@@ -123,20 +84,6 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://www.wakatime.com">
-						Wakatime
-						<br />
-						<img src="Images/Dials/Wakatime.png" alt="Wakatime" />
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com">
-						GitHub
-						<br />
-						<img src="Images/Dials/GitHub.png" alt="GitHub" />
-						</a>
-					</li>
-					<li>
 						<a href="http://www.uptimerobot.com">
 						Uptime Robot
 						<br />
@@ -148,13 +95,6 @@
 						Dept. de TI
 						<br />
 						<img src="Images/Dials/TI.png" alt="FDept. de TI" />
-						</a>
-					</li>
-					<li>
-						<a href="https://marketing.editorainovacao.com.br">
-						Dept. de Marketing
-						<br />
-						<img src="Images/Dials/Marketing.png" alt="Dept. de Marketing" />
 						</a>
 					</li>
 					<li>
@@ -222,14 +162,6 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://www.programaartebrasil.com.br">
-							<div class="monitor" data-monitor="Programa Arte Brasil"></div>
-							Programa Arte Brasil
-							<br />
-							<img src="Images/Dials/ArteBrasil.png" alt="Programa Arte Brasil" />
-						</a>
-					</li>
-					<li>
 						<a href="http://www.a12.com/tv-aparecida/programas/vida-com-arte">
 						Vida com Arte
 						<br />
@@ -279,14 +211,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="https://mercadolivre.com.br">
+					<a href="https://www.mercadolivre.com.br">
 						Mercado Livre
 						<br />
 						<img src="Images/Dials/MercadoLivre.png" alt="Mercado Livre" />
 					</a>
 				</li>
 				<li>
-					<a href="https://rdstation.com">
+					<a href="https://www.rdstation.com">
 						RD Station
 						<br />
 						<img src="Images/Dials/RDStation.png" alt="RD Station" />

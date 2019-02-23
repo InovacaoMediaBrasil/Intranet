@@ -13,14 +13,6 @@
 <body>
     <section class="operation">
         <ul class="dials">
-			<li>
-				<a href="http://crm.editorainovacao.com.br/">
-					<div class="monitor" data-monitor="Inovação CRM"></div>
-					Inovação CRM
-					<br />
-					<img src="Images/Dials/InovacaoCRM.png" alt="Inovacão CRM" />
-				</a>
-			</li>
             <li>
                 <a href="http://192.168.1.235:8081/">
                     <div class="monitor" data-monitor="WMW Vendas"></div>
@@ -67,14 +59,6 @@
                     Canal do Artesanato
                     <br />
                     <img src="Images/Dials/CanalDoArtesanato.png" alt="Canal do Artesanato" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.programaartebrasil.com.br">
-                    <div class="monitor" data-monitor="Programa Arte Brasil"></div>
-                    Programa Arte Brasil
-                    <br />
-                    <img src="Images/Dials/ArteBrasil.png" alt="Programa Arte Brasil" />
                 </a>
             </li>
             <li>
@@ -142,13 +126,6 @@
 					Dept. de TI
 					<br />
 					<img src="Images/Dials/TI.png" alt="FDept. de TI" />
-				</a>
-			</li>
-			<li>
-				<a href="https://marketing.editorainovacao.com.br">
-					Dept. de Marketing
-					<br />
-					<img src="Images/Dials/Marketing.png" alt="Dept. de Marketing" />
 				</a>
 			</li>
         </ul>

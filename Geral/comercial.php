@@ -55,14 +55,6 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.programaartebrasil.com.br">
-                    <div class="monitor" data-monitor="Programa Arte Brasil"></div>
-                    Programa Arte Brasil
-                    <br />
-                    <img src="Images/Dials/ArteBrasil.png" alt="Programa Arte Brasil" />
-                </a>
-            </li>
-            <li>
                 <a href="https://www.canaldoartesanato.com.br">
                     <div class="monitor" data-monitor="Canal do Artesanato"></div>
                     Canal do Artesanato
@@ -123,14 +115,7 @@
 					<br />
 					<img src="Images/Dials/TI.png" alt="FDept. de TI" />
 				</a>
-			</li>
-			<li>
-				<a href="redirect.php?url=https://marketing.editorainovacao.com.br">
-					Dept. de Marketing
-					<br />
-					<img src="Images/Dials/Marketing.png" alt="Dept. de Marketing" />
-				</a>
-			</li>
+			</li>			
         </ul>
         <div style="clear:both;"></div>
         </div>
