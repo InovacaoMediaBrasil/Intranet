@@ -49,24 +49,10 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://portal.maxipago.net/vpos/Login">
-						Maxi pago!
-						<br />
-						<img src="Images/Dials/Maxipago.png" alt="Maxi Pago!" />
-						</a>
-					</li>
-					<li>
 						<a href="https://centraldocliente.locaweb.com.br">
 						Locaweb - Central do cliente
 						<br />
 						<img src="Images/Dials/Locaweb.png" alt="Locaweb" />
-						</a>
-					</li>
-					<li>
-						<a href="https://smtplw.com.br">
-						SMTP - Locaweb
-						<br />
-						<img src="Images/Dials/Locaweb.png" alt="SMTP - Locaweb" />
 						</a>
 					</li>
 					<li>
@@ -81,13 +67,6 @@
 							Kibana
 							<br />
 							<img src="Images/Dials/Kibana.png" alt="Kibana" />
-						</a>
-					</li>
-					<li>
-						<a href="http://www.uptimerobot.com">
-						Uptime Robot
-						<br />
-						<img src="Images/Dials/UptimeRobot.png" alt="Uptime Robot" />
 						</a>
 					</li>
 					<li>
@@ -114,27 +93,11 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://www.canaldoartesanato.com.br">
-							<div class="monitor" data-monitor="Canal do Artesanato"></div>
-							Canal do Artesanato
-							<br />
-							<img src="Images/Dials/CanalDoArtesanato.png" alt="Canal do Artesanato" />
-						</a>
-					</li>
-					<li>
 						<a href="https://www.vitrinedoartesanato.com.br/?utm_source=intranet&utm_medium=dial&utm_campaign=acesso+interno">
 							<div class="monitor" data-monitor="Vitrine do Artesanato"></div>
 							Vitrine do Artesanato
 							<br />
 							<img src="Images/Dials/VitrineDoArtesanato.png" alt="Vitrine do Artesanato" />
-						</a>
-					</li>
-					<li>
-						<a href="https://www.vitrinedoartesanatonatv.com.br">
-							<div class="monitor" data-monitor="Vitrine do Artesanato na TV"></div>
-							Vitrine do Artesanato na TV
-							<br />
-							<img src="Images/Dials/VitrineDoArtesanatoNaTV.png" alt="Vitrine do Artesanato na TV" />
 						</a>
 					</li>
 					<li>
@@ -215,13 +178,6 @@
 						Mercado Livre
 						<br />
 						<img src="Images/Dials/MercadoLivre.png" alt="Mercado Livre" />
-					</a>
-				</li>
-				<li>
-					<a href="https://www.rdstation.com">
-						RD Station
-						<br />
-						<img src="Images/Dials/RDStation.png" alt="RD Station" />
 					</a>
 				</li>
 			</ul>

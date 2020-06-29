@@ -79,22 +79,6 @@
 				</a>
             </li>
             <li>
-                <a href="https://www.canaldoartesanato.com.br">
-                    <div class="monitor" data-monitor="Canal do Artesanato"></div>
-                    Canal do Artesanato
-                    <br />
-                    <img src="Images/Dials/CanalDoArtesanato.png" alt="Canal do Artesanato" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.vitrinedoartesanatonatv.com.br">
-                    <div class="monitor" data-monitor="Vitrine do Artesanato na TV"></div>
-                    Vitrine do Artesanato na TV
-                    <br />
-                    <img src="Images/Dials/VitrineDoArtesanatoNaTV.png" alt="Vitrine do Artesanato na TV" />
-                </a>
-            </li>
-            <li>
                 <a href="https://www.vitrinedoartesanatodigital.com.br">
                     <div class="monitor" data-monitor="Vitrine do Artesanato Digital"></div>
                     Vitrine do Artesanato Digital

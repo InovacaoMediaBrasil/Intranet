@@ -47,9 +47,6 @@ function processOrdersReport(data){
             case 502:
             operation = "e-Commerce";
             break;
-			case 574:
-			operation = "Burda";
-			break;
         }
         switch (r.Option){
             case "A prazo":
@@ -79,7 +76,7 @@ function processOrdersGrowth(data){
     var html = "<header>Análise de vendas <span class='label label-default'>atualizado às " + ToReadableTime(ToJavaScriptDate(data.LastUpdateDate)) + "</span></header>";
     html += "<article>";
     html += "<table class='table table-hover table-condensed table-striped'>";
-    html += "<thead><tr><th>Data / Operação</th><th>Todas</th><th>Ativo</th><th>Receptivo</th><th>e-Commerce</th><th>Burda</th></tr>";
+    html += "<thead><tr><th>Data / Operação</th><th>Todas</th><th>Ativo</th><th>Receptivo</th><th>e-Commerce</th></tr>";
     html += "<tbody>";
     var today = findByProperty(data.Reports, "Type", 0);
     html += processOrdersGrowthGroup("Hoje", today, null);
@@ -99,14 +96,12 @@ function processOrdersGrowthGroup(group, data, todayData){
     var active = calculateOrdersGrowth(data, todayData, 500);
     var receptive = calculateOrdersGrowth(data, todayData, 501);
     var eCommerce = calculateOrdersGrowth(data, todayData, 502);
-	var burda = calculateOrdersGrowth(data, todayData, 574);
     var tr = "<tr>";
     tr += "<td>" + group + "</td>";
     tr += "<td>" + all.Quantity + (group !== "Hoje" ? all.Percent : "") +  "</td>";
     tr += "<td>" + active.Quantity + (group !== "Hoje" ? active.Percent : "") + "</td>";
     tr += "<td>" + receptive.Quantity + (group !== "Hoje" ? receptive.Percent : "") + "</td>";
     tr += "<td>" + eCommerce.Quantity + (group !== "Hoje" ? eCommerce.Percent  : "") + "</td>";
-	tr += "<td>" + burda.Quantity + (group !== "Hoje" ? burda.Percent  : "") + "</td>";
     tr += "</tr>";
     return tr;
 }
