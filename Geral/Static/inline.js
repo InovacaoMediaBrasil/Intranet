@@ -12,7 +12,7 @@ if (typeof jQuery === "undefined")
     let partner = null;
     let isLocalIntranet = false;
 	let jQueryRetries = 0;
-	const jQueryExpectedVersion = "3.3.1";
+	const jQueryExpectedVersion = "3.5.1";
 
     function getInfoFromIntegracaoAPI(endpoint, method, data, callback) {
         $.ajax({
@@ -185,7 +185,7 @@ if (typeof jQuery === "undefined")
         } else
             console.info("Initializing inline.js");
         window.inlineLoaded = true;
-        loadScriptIf(typeof $ === "undefined" || $ == null || $.fn.jquery !== "3.3.1", "https://code.jquery.com/jquery-" + jQueryExpectedVersion + ".min.js", null, nc);
+        loadScriptIf(typeof $ === "undefined" || $ == null || $.fn.jquery !== jQueryExpectedVersion, "https://code.jquery.com/jquery-" + jQueryExpectedVersion + ".min.js", null, nc);
         loadScriptIf(typeof window.toastr === "undefined", "https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js", configureToastr, function () { loadStyle("https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"); });
         loadScriptIf(typeof window.Cookies === "undefined", "https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js", cookiesLoaded);
         console.groupEnd();
