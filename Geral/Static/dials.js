@@ -35,13 +35,6 @@ const dials = [
         "Image": "TotalIP.png"
     },
     {
-        "Name": "Maxi Pago!",
-        "Monitor": false,
-        "MonitorName": "",
-        "Href": "https://poratal.maxipago.net/vpos/login",
-        "Image": "MaxiPago.png"
-    },
-    {
         "Name": "Locaweb - Central do Cliente",
         "Monitor": false,
         "MonitorName": "",
@@ -53,13 +46,6 @@ const dials = [
 		"Monitor": false,
 		"MonitorName": "",
 		"Href" : "https://webmail-seguro.com.br/inovacaomedia.com.br/v2/",
-		"Image": "Locaweb.png"
-	},
-	{
-		"Name": "Locaweb - SMTP",
-		"Monitor": false,
-		"MonitorName":"",
-		"Href": "https://smtplw.com.br",
 		"Image": "Locaweb.png"
 	},
 	{

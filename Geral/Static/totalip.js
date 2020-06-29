@@ -118,7 +118,7 @@ function processTotalIpDataInterface() {
         OnlineOnly: extensionsOnlineOnly, 
         AvailableOnly: extensionsAvailableOnly 
     }, {
-         expires: 365 
+         expires: 365
     });
 }
 

@@ -111,7 +111,7 @@ function storeMonitorsInCookie(data) {
         if(item.Priority === 1)
             temp.push({ MonitorId: item.MonitorId, Name: item.Name, CurrentStatus: item.CurrentStatus });
     });
-    window.Cookies.set("monitors", temp, { expires: 365, domain: ".editorainovacao.com.br" });
+    window.Cookies.set("monitors", temp, { expires: 365, domain: ".editorainovacao.com.br", secure: true, sameSite: "none"});
 }
 
 function findMonitorPreviousState(monitorId) {

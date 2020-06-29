@@ -199,8 +199,8 @@ function getFingerprint(){
 		var d = new Date();
 		d.setDate(d.getDate() + 365);
 		if(typeof window.Cookies !== "undefined" && window.Cookies !== null)
-			window.Cookies.set("fingerprint", result, { expires: 365, domain: ".editorainovacao.com.br" });
+			window.Cookies.set("fingerprint", result, { expires: 365, domain: ".editorainovacao.com.br", secure: true, sameSite: "none" });
 		else
-			document.cookie= "fingerprint=" + result + ";expires=" + d.toGMTString() + ";domain=.editorainovacao.com.br";
+			document.cookie= "fingerprint=" + result + ";expires=" + d.toGMTString() + ";domain=.editorainovacao.com.br;Secure;SameSite=none";
     })
 }

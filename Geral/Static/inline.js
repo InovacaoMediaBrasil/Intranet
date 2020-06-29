@@ -143,7 +143,7 @@ if (typeof jQuery === "undefined")
         isLocalIntranet = false;        
         if (ip.indexOf("192.168.1.") !== -1 && ip !== window.Cookies.get("intranet.lanip"))
             checkIfIsInIntranet();
-        window.Cookies.set("intranet.lanip", ip, { expires: 30, domain: ".editorainovacao.com.br" });
+        window.Cookies.set("intranet.lanip", ip, { expires: 30, domain: ".editorainovacao.com.br", secure: true, sameSite: "none" });
     }
 
     function checkIfIsInIntranet() {
@@ -154,7 +154,7 @@ if (typeof jQuery === "undefined")
 		//Fix the SSL certificate of 192.168.1.235
         var img = new Image();
         $(img).on("load", function(){
-            window.Cookies.set("intranet.isLocalIntranet", true, { expires: 30, domain: ".editorainovacao.com.br" });
+            window.Cookies.set("intranet.isLocalIntranet", true, { expires: 30, domain: ".editorainovacao.com.br", secure: true, sameSite: "none" });
             if (!isLocalIntranet)
                 window.toastr["info"]("Conectado a intranet [Local]", editoraInovacao);
             isLocalIntranet = true;
@@ -384,9 +384,9 @@ if (typeof jQuery === "undefined")
             return;
         }
         console.log(partner);
-        window.Cookies.set("intranet.partnerCode", partner.Code, { expires: 15, domain: ".editorainovacao.com.br" });
+        window.Cookies.set("intranet.partnerCode", partner.Code, { expires: 15, domain: ".editorainovacao.com.br", secure: true, sameSite: "none" });
         window.toastr["success"]("Oi " + partner.SocialName + "!", editoraInovacao);
-        window.Cookies.set("intranet.partner", partner, { expires: 5, domain: ".editorainovacao.com.br" });
+        window.Cookies.set("intranet.partner", partner, { expires: 5, domain: ".editorainovacao.com.br", secure: true, sameSite: "none" });
         console.groupEnd();
     }
 
