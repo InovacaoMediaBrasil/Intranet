@@ -130,20 +130,6 @@
 						<br />
 						<img src="Images/Dials/VidaComArte.png" alt="Vida com Arte" />
 						</a>
-					</li>					
-					<li>
-						<a href="https://www.facebook.com">
-						Facebook
-						<br />
-						<img src="Images/Dials/Facebook.png" alt="Facebook" />
-						</a>
-					</li>
-					<li>
-						<a href="https://www.youtube.com.br/">
-						YouTube
-						<br />
-						<img src="Images/Dials/YouTube.png" alt="YouTube" />
-						</a>
 					</li>
 					<li>
 						<a href="http://www.correios.com.br/">
