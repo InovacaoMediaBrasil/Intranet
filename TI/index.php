@@ -28,7 +28,7 @@ function read($dir){
 <body>
 	<div class="container-fluid">
 		<div class="row text-center">
-			<div class="col-md-12" style="background:#0dd682;">
+			<div class="row col-md-12" style="background:#0dd682;">
 				<div class="col-xs-12 col-md-3">
 					<img src="https://intranet.editorainovacao.com.br/Images/Dials/InovacaoMediaBrasil.png" alt="Inovação Media Brasil" />
 				</div>
@@ -40,7 +40,7 @@ function read($dir){
 					<img src="https://intranet.editorainovacao.com.br/Images/Dials/TI.png" alt="TI - Inovação Media Brasil" />
 				</div>
 			</div>
-			<div class="col-md-12" style="margin-top:50px;">
+			<div class="row col-md-12" style="margin-top:50px;">
 				<div class="col-md-4">
 					<div class="panel panel-success">
 						<div class="panel-heading">
