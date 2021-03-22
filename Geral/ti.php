@@ -163,7 +163,6 @@
         </section>
         <section class="aside">
             <?php require_once("includes/ordersPending.php") ?>
-            <?php require_once("includes/totalIp.php"); ?>
             <?php require_once("includes/wmwVendasTools.php"); ?>	
             <?php require_once("includes/monitors.php"); ?>
         </section>

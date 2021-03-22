@@ -193,7 +193,6 @@
         <?php require_once("includes/mediaScheduleToday.php"); ?>
         <?php require_once("includes/ordersPending.php"); ?> 
 		<?php require_once("includes/ordersReport.php") ?>		
-        <?php require_once("includes/totalIp.php"); ?>
         <?php require_once("includes/mediaSchedulePeriod.php"); ?>
 	</section>
     <?php require_once("includes/footer.php"); ?>   

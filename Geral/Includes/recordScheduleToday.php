@@ -1,3 +1,4 @@
+<?php if(date("G") >= 7 && date("G") <= 21) { ?>
 <aside class="schedule">
 	<header>Agenda de gravação do dia <span id="lastUpdateRecord" class="label label-default"></span></header>
 	<article>
@@ -13,3 +14,4 @@
 		</table>
 	</article>
 </aside>
+<?php } ?>

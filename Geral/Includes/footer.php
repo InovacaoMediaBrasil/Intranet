@@ -25,7 +25,6 @@
         <script type="text/javascript" src="Static/media.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
         <script type="text/javascript" src="Static/record.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
         <script type="text/javascript" src="Static/wmwVendas.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
-        <script type="text/javascript" src="Static/totalIp.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
         <script type="text/javascript" src="Static/monitors.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
         <script type="text/javascript" src="Static/orders.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>
         <script type="text/javascript" src="Static/inline.js?updateDate=<?php echo LAST_UPDATE; ?>"></script>

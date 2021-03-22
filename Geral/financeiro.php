@@ -145,7 +145,6 @@
     </section>
 	<section class="aside">
         <?php require_once("includes/mediaScheduleToday.php") ?>
-        <?php require_once("includes/totalIp.php"); ?>
         <?php require_once("includes/recordScheduleToday.php") ?>
 	</section>
     <?php require_once("includes/footer.php"); ?>   

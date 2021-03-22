@@ -118,7 +118,6 @@
     </section>
 	<section class="aside">
         <?php require_once("includes/mediaScheduleToday.php") ?>
-		<?php require_once("includes/totalIp.php"); ?>
         <?php require_once("includes/recordScheduleToday.php"); ?>	
         <?php require_once("includes/recordSchedulePeriod.php"); ?>	
 	</section>

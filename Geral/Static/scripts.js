@@ -41,8 +41,6 @@ function initializeIntranet() {
     initializeDials();
     attachEvents();
     onUnavailableMonitors();    
-    loadTotalIpStatus();
-    intervalExtensions = setInterval(loadTotalIpStatus, 2500);
 	if(typeof loadRankingData !== "undefined")
 		loadRankingData();
     initializeFeeds();

@@ -408,7 +408,6 @@ if (typeof jQuery === "undefined")
     if(window.location.hash.indexOf("enable-inlinejs") === -1 &&
        window.location.href.indexOf("localhost") === -1 &&
 	   window.location.href.indexOf("intranet.editorainovacao.com.br") === -1 &&
-	   //window.location.href.indexOf("totalip.editorainovacao.com.br") === -1 &&
 	   window.location.href.indexOf("sankhya.editorainovacao.com.br") === -1 &&
 	   window.location.href.indexOf("visualizador.editorainovacao.com.br") === -1)
     {
