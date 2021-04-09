@@ -26,7 +26,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://vendas.editorainovacao.com.br/">
+                    <a href="http://local.editorainovacao.com.br:8081">
                         <div class="monitor" data-monitor="WMW Vendas"></div>
                         WMW Vendas
                         <br />
@@ -41,8 +41,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://totalip.editorainovacao.com.br">
-                        <div class="monitor" data-monitor="Total IP"></div>
+                    <a href="http://192.168.1.194">
                         Total IP
                         <br />
                         <img src="Images/Dials/TotalIP.png" alt="Total IP" />
@@ -114,14 +113,6 @@
                         Lista de Compras
                         <br />
                         <img src="Images/Dials/ListaDeCompras.png" alt="Lista de Compras" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.taniasilva.com.br">
-                        <div class="monitor" data-monitor="Tania Silva"></div>
-                        Tania Silva
-                        <br />
-                        <img src="Images/Dials/TaniaSilva.png" alt="Tânia Silva" />
                     </a>
                 </li>
                 <li>
