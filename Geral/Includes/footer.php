@@ -1,6 +1,6 @@
 <?php if(!strpos(strtolower($_SERVER["REQUEST_URI"]), "monitores")){ ?>
 <footer class="text-center" style="background-color: #98C59E;color:#FFF;">
-            Inovação Media Brasil Intranet © Copyright TI - Inovação Media Brasil 2015 - <?php echo date("Y"); ?>
+            Inovação Media Brasil Intranet &copy; 2015 - <?php echo date("Y"); ?> | <a href="https://guilherme.stracini.com/" target="_blank">Guilherme Branco Stracini</a> | Versão: 3.0 
 
         </footer>
 <?php } ?>

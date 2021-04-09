@@ -45,8 +45,7 @@
                 </a>
             </li>
             <li>
-                <a href="http://totalip.editorainovacao.com.br">
-                    <div class="monitor" data-monitor="Total IP"></div>
+                <a href="http://192.168.1.194">
                     Total IP
                     <br />
                     <img src="Images/Dials/TotalIP.png" alt="Total IP" />
@@ -81,14 +80,6 @@
                     Vitrine do Artesanato
                     <br />
                     <img src="Images/Dials/VitrineDoArtesanato.png" alt="Vitrine do Artesanato" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.taniasilva.com.br">
-                    <div class="monitor" data-monitor="Tania Silva"></div>
-                    Tania Silva
-                    <br />
-                    <img src="Images/Dials/TaniaSilva.png" alt="Tânia Silva" />
                 </a>
             </li>
             <li>

@@ -17,7 +17,7 @@ const dials = [
         "Name": "WMW vendas",
         "Monitor": true,
         "MonitorName": "WMW Vendas",
-        "Href": "https://vendas.editorainovacao.com.br",
+        "Href": "http://local.editorainovacao.com.br:8081",
         "Image": "WMWVendas.png"
     },
     {
@@ -29,9 +29,9 @@ const dials = [
     },
     {
         "Name": "Total IP",
-        "Monitor": true,
-        "MonitorName": "Totap IP",
-        "Href": "https://totalip.editorainovacao.com.br",
+        "Monitor": false,
+        "MonitorName": "",
+        "Href": "https://192.168.1.194",
         "Image": "TotalIP.png"
     },
     {

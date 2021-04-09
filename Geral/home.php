@@ -52,14 +52,6 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.taniasilva.com.br">
-                    <div class="monitor" data-monitor="Tania Silva"></div>
-                    Tania Silva
-                    <br />
-                    <img src="Images/Dials/TaniaSilva.png" alt="Tânia Silva" />
-                </a>
-            </li>
-            <li>
                 <a href="https://www.canaldoartesanato.com.br">
                     <div class="monitor" data-monitor="Canal do Artesanato"></div>
                     Canal do Artesanato
