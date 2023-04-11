@@ -18,5 +18,6 @@ Repositório das intranets da Inovação Media Brasil
 - Redirects (domínios dos sistemas internos para subdomínios)
 - [TI](https://ti.editorainovacao.com.br)
 
+---
 
-Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) [*guilherme(at)guilhermebranco(dot)com(dot)br*] para [Editora Inovação](https://www.editorainovacao.com.br) - © 2014 - 2023. 
+Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) [*guilherme(at)guilhermebranco(dot)com(dot)br*] para [Editora Inovação](https://www.editorainovacao.com.br) - © 2015 - 2023. 
