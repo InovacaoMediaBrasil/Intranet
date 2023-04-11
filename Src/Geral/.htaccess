@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^logistica$ ./comercial.php [L]
+RewriteRule ^marketing$ ./ecommerce.php [L]
+RewriteRule ^sac$ ./ecommerce.php [L]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^(.*)$ ./$1.php
