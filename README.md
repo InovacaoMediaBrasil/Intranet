@@ -9,6 +9,8 @@ Aplicação [Intranet Editora Inovação](https://intranet.editorainovacao.com.b
 [![GitHub license](https://img.shields.io/github/license/InovacaoMediaBrasil/Intranet)](https://github.com/InovacaoMediaBrasil/Intranet)
 [![GitHub last commit](https://img.shields.io/github/last-commit/InovacaoMediaBrasil/Intranet/main)](https://github.com/InovacaoMediaBrasil/Intranet)
 
+![EditoraInovacao](logo.png)
+
 ---
 
 ## Sobre
