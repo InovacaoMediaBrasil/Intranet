@@ -1,4 +1,4 @@
-### Intranet Editora Inovação
+# Intranet Editora Inovação
 
 Aplicação [Intranet Editora Inovação](https://intranet.editorainovacao.com.br/)
 
