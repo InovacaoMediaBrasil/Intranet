@@ -1,6 +1,6 @@
 # Intranet Editora Inovação
 
-Aplicação [Intranet Editora Inovação](https://intranet.editorainovacao.com.br/)
+The [Intranet Editora Inovação](https://intranet.editorainovacao.com.br/) project. Holds the intranet pages.
 
 [![wakatime](https://wakatime.com/badge/github/InovacaoMediaBrasil/Intranet.svg)](https://wakatime.com/badge/github/InovacaoMediaBrasil/Intranet)
 [![Maintainability](https://api.codeclimate.com/v1/badges/fb6ff3eb199f04fc4f74/maintainability)](https://codeclimate.com/github/InovacaoMediaBrasil/Intranet/maintainability)
@@ -13,16 +13,20 @@ Aplicação [Intranet Editora Inovação](https://intranet.editorainovacao.com.b
 
 ---
 
-## Sobre
+## About
 
-Repositório das intranets da Inovação Media Brasil
+Inovação Media Brasil intranet repository
 
-- [Intranet geral](https://intranet.editorainovacao.com.br)
+- [General](https://intranet.editorainovacao.com.br)
 - [Marketing](https://marketing.editorainovacao.com.br)
-- Lojas Virtuais (domínios sem www apontando para a VTEX)
-- Redirects (domínios dos sistemas internos para subdomínios)
+- Virtual Stores (domains without www pointing to VTEX)
+- Redirects (domains from internal systems to subdomains)
 - [TI](https://ti.editorainovacao.com.br)
 
 ---
 
-Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) [*guilherme(at)guilhermebranco(dot)com(dot)br*] para [Editora Inovação](https://www.editorainovacao.com.br) - © 2015 - 2023. 
+Developed by [Guilherme Branco Stracini](https://guilherme.stracini.com) [*guilherme(at)guilhermebranco(dot)com(dot)br*] for [Editora Inovação](https://www.editorainovacao.com.br).
+
+2013 ~ 2018 © [Guilherme Branco Stracini](https://guilherme.stracini.com). All rights reserved.
+
+---
