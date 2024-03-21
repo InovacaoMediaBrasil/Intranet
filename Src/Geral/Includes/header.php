@@ -1,8 +1,9 @@
-<?php 
+<?php
 $schema = "http";
-if(isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on")
+if(isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on") {
     $schema .= "s";
-define("BASE", $schema . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]); 
+}
+define("BASE", $schema . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
 define("LAST_UPDATE", "2020-06-29-011900");
 ?>
 <meta charset="utf-8" />

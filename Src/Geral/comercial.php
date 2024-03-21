@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<?php 
+<?php
     require_once("includes/header.php");
 ?>
     <script type="text/javascript">

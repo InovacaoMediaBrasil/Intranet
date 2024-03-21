@@ -1,1 +1,3 @@
-<?php header("Location: https://intranet.editorainovacao.com.br/"); ?>
+<?php
+
+header("Location: https://intranet.editorainovacao.com.br/");
