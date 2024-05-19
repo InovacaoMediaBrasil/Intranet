@@ -14,20 +14,6 @@ updates:
     - "docker"
     - "dependencies"
 
-- package-ecosystem: "npm"
-  directory: "/"
-  schedule:
-    interval: weekly
-  open-pull-requests-limit: 50
-  assignees:
-    - "guibranco"
-  reviewers:
-    - "guibranco"
-  labels:
-    - "npm"
-    - "JavaScript"
-    - "dependencies"
-
 - package-ecosystem: "github-actions"
   directory: "/"
   schedule:
