@@ -1,4 +1,4 @@
-﻿.tc_body {
+.tc_body {
     width: 100%;
     float: left;
     padding: 0;
@@ -471,7 +471,7 @@ body .tc_back {
     font-family: Open Sans, sans-serif;
     font-weight: 300;
     padding: 50px 20px 20px;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
     color: #8A8C93;
     color: #777;
     letter-spacing: -1.2px;
