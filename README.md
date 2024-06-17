@@ -17,14 +17,16 @@ The [Intranet Editora Inovação](https://intranet.editorainovacao.com.br/) proj
 
 Inovação Media Brasil intranet repository
 
--  [General](https://intranet.editorainovacao.com.br)
--  [Marketing](https://marketing.editorainovacao.com.br)
--  Virtual Stores (domains without www pointing to VTEX)
--  Redirects (domains from internal systems to subdomains)
--  [TI](https://ti.editorainovacao.com.br)
+- [General](https://intranet.editorainovacao.com.br)
+- [Marketing](https://marketing.editorainovacao.com.br)
+- Virtual Stores (domains without www pointing to VTEX)
+- Redirects (domains from internal systems to subdomains)
+- [TI](https://ti.editorainovacao.com.br)
 
 ---
 
-Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) para [Editora Inovação](https://www.editorainovacao.com.br) 
+Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) para [Editora Inovação](https://www.editorainovacao.com.br)
 
 © 2013 ~ 2018 All rights reserved.
+
+---
