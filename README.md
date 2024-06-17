@@ -1,4 +1,4 @@
-# Intranet Editora Inovação
+# Editora Inovação intranet
 
 The [Intranet Editora Inovação](https://intranet.editorainovacao.com.br/) project. Holds the intranet pages.
 
@@ -25,7 +25,7 @@ Inovação Media Brasil intranet repository
 
 ---
 
-Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) para [Editora Inovação](https://www.editorainovacao.com.br)
+Developed by [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) for [Editora Inovação](https://www.editorainovacao.com.br)
 
 © 2013 ~ 2018 All rights reserved.
 
