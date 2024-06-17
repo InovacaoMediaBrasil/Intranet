@@ -28,3 +28,5 @@ Inovação Media Brasil intranet repository
 Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) para [Editora Inovação](https://www.editorainovacao.com.br) 
 
 © 2013 ~ 2018 All rights reserved.
+
+---
