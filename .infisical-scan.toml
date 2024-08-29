@@ -1,0 +1,12 @@
+title = "ReadOnlyToken"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "global allow list"
+paths = ['''(.*?)\.js''']
+
+regexTarget = "match"
+
+regexes = ['''listaDeCompras_token''']
