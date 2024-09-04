@@ -1,0 +1,42 @@
+name: Deploy via ftp
+on:
+  push:
+    branches: main
+  workflow_dispatch:
+
+concurrency:
+  group: build-deploy
+
+jobs:
+  create_release:
+    name: Create release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
+      - name: Install GitVersion
+        uses: gittools/actions/gitversion/setup@v3.0.0
+        with:
+          versionSpec: '5.x'
+
+      - name: Determine Version
+        id: gitversion
+        uses: gittools/actions/gitversion/execute@v3.0.0
+        with:
+          useConfigFile: true    
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1.14.0
+        with:
+          skipIfReleaseExists: true
+          allowUpdates: false
+          draft: false
+          makeLatest: true
+          tag: v${{ env.fullSemVer }}
+          name: Release v${{ env.fullSemVer }}
+          generateReleaseNotes: true
+          body: Release ${{ env.fullSemVer }} of ${{ github.repository }}
