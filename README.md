@@ -20,6 +20,7 @@ The [Intranet Editora Inovação](https://intranet.editorainovacao.com.br/) proj
 This repository powers the **Editora Inovação** intranet. It includes all intranet-related pages, routes, and subdomain entry points for internal usage.
 
 ### Main sections:
+
 - 🧭 [General access](https://intranet.editorainovacao.com.br)
 - 📣 [Marketing](https://marketing.editorainovacao.com.br)
 - 🛒 Virtual stores (domains without `www`, routed to VTEX)
