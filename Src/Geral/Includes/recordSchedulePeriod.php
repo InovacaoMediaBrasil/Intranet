@@ -1,4 +1,4 @@
-<?php if(date("G") >= 7 && date("G") <= 21) { ?>
+<?php if (date("G") >= 7 && date("G") <= 21) { ?>
 <aside class="schedule">
 	<header>Agenda de gravação de <span id="periodRecord"></span> <span id="lastUpdateRecordPeriod" class="label label-default"></span></header>
     <article>

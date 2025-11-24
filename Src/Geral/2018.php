@@ -1,8 +1,9 @@
-<?php 
+<?php
 $schema = "http";
-if(isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on")
+if (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on") {
     $schema .= "s";
-define("BASE", $schema . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]); 
+}
+define("BASE", $schema . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
 define("LAST_UPDATE", "2018-09-11T193300");
 ?>
 <!DOCTYPE html>
@@ -30,9 +31,9 @@ define("LAST_UPDATE", "2018-09-11T193300");
 	</head>
 	<body>
 		<div class="container-fluid">
-			<?php 
-				require_once("includes/navbar.php")
-			?>
+			<?php
+                require_once("includes/navbar.php")
+?>
 			<div class="row">
 				<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 					<ul class="nav nav-tabs" id="mainTab" role="tablist">

@@ -1,584 +1,592 @@
-*, html, body {
-    margin: 0;
-    padding: 0;
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #E6EEE7;
-    color: black;
-    margin: 0 0.5em 1em 0;
-    font-family: cursive, 'Arial', Sans-Serif !important;
+  background-color: #e6eee7;
+  color: black;
+  margin: 0 0.5em 1em 0;
+  font-family: cursive, "Arial", Sans-Serif !important;
 }
 
 footer {
-    clear: both;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 5px 0;
-    border-top: 2px solid #116611;
+  clear: both;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 0;
+  border-top: 2px solid #116611;
 }
 
 .row-no-padding [class*="col-"] {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
-
 
 section {
-    width: 100%;
-    background: #E6EEE7 !important;
-    border: none !important;
+  width: 100%;
+  background: #e6eee7 !important;
+  border: none !important;
 }
 
-    section#home {
-        width: 82%;
-        float: none;
-        margin: auto;
-    }
+section#home {
+  width: 82%;
+  float: none;
+  margin: auto;
+}
 
-    section nav {
-        width: 99%;
-        margin: auto;
-    }
+section nav {
+  width: 99%;
+  margin: auto;
+}
 
-    section#resellersTable {
-        padding-top: 25px;
-    }
+section#resellersTable {
+  padding-top: 25px;
+}
 
-        section#resellersTable h1 {
-            display: block;
-            text-align: center;
-        }
+section#resellersTable h1 {
+  display: block;
+  text-align: center;
+}
 
-        section#resellersTable a {
-            font-weight: bold;
-            background: #4eb1ba;
-            text-decoration: none;
-            width: 80px;
-            height: 35px;
-            line-height: 35px;
-            text-align: center;
-            border-radius: 15px;
-            position: fixed;
-            left: 10px;
-            top: 25px;
-            color: #FFF;
-        }
+section#resellersTable a {
+  font-weight: bold;
+  background: #4eb1ba;
+  text-decoration: none;
+  width: 80px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 15px;
+  position: fixed;
+  left: 10px;
+  top: 25px;
+  color: #fff;
+}
 
-            section#resellersTable a:hover {
-                color: #a0db8e;
-                border-bottom: 5px solid #a0db8e;
-                -webkit-transition: all 0.45s;
-                -moz-transition: all 0.45s;
-                -ms-transition: all 0.45s;
-                -o-transition: all 0.45s;
-                transition: all 0.45s;
-                cursor: pointer;
-                -ms-transform: rotate(15deg);
-                -webkit-transform: rotate(15deg);
-                -moz-transform: rotate(15deg);
-                -o-transform: rotate(15deg);
-                transform: rotate(15deg);
-            }
+section#resellersTable a:hover {
+  color: #a0db8e;
+  border-bottom: 5px solid #a0db8e;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+  cursor: pointer;
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
 
-        section#resellersTable table {
-            width: 85%;
-            margin: 10px auto;
-            font-size: 12px;
-            text-align: center;
-        }
+section#resellersTable table {
+  width: 85%;
+  margin: 10px auto;
+  font-size: 12px;
+  text-align: center;
+}
 
-            section#resellersTable table thead tr {
-                background: #FFC;
-                height: 50px;
-                font-size: 16px;
-                color: #000;
-            }
+section#resellersTable table thead tr {
+  background: #ffc;
+  height: 50px;
+  font-size: 16px;
+  color: #000;
+}
 
-            section#resellersTable table tbody tr {
-                height: 35px;
-                line-height: 35px;
-                font-weight: normal;
-                background: #A0DB8E;
-                cursor: pointer;
-            }
+section#resellersTable table tbody tr {
+  height: 35px;
+  line-height: 35px;
+  font-weight: normal;
+  background: #a0db8e;
+  cursor: pointer;
+}
 
-                section#resellersTable table tbody tr:nth-child(odd) {
-                    background: #55a955;
-                    color: #FFF;
-                }
+section#resellersTable table tbody tr:nth-child(odd) {
+  background: #55a955;
+  color: #fff;
+}
 
-                section#resellersTable table tbody tr:hover {
-                    background: #20b2aa;
-                    font-weight: bold;
-                    font-size: 14px;
-                }
+section#resellersTable table tbody tr:hover {
+  background: #20b2aa;
+  font-weight: bold;
+  font-size: 14px;
+}
 
-                section#resellersTable table tbody tr td {
-                    border-right: 2px dotted #000;
-                }
+section#resellersTable table tbody tr td {
+  border-right: 2px dotted #000;
+}
 
-                    section#resellersTable table tbody tr td:last-child {
-                        border-right: none;
-                    }
+section#resellersTable table tbody tr td:last-child {
+  border-right: none;
+}
 
-    section.operation {
-        width: 70%;
-        float: left;
-    }
+section.operation {
+  width: 70%;
+  float: left;
+}
 
-        section.operation header.banner {
-            width: 100%;
-            margin: auto;
-        }
+section.operation header.banner {
+  width: 100%;
+  margin: auto;
+}
 
-            section.operation header.banner img {
-                max-width: 100%;
-            }
+section.operation header.banner img {
+  max-width: 100%;
+}
 
-    section.aside {
-        float: left;
-        width: 30%;
-    }
+section.aside {
+  float: left;
+  width: 30%;
+}
 
 aside.schedule {
-    border-left: 5px dashed gold;
-    background: #98C59E;
+  border-left: 5px dashed gold;
+  background: #98c59e;
 }
 
-.schedule header, 
+.schedule header,
 .ranking header {
-    padding: 5px;
-    font-weight: bold;
-    text-align: center;
-    background: #FFC;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  background: #ffc;
 }
 
-     header span.label {
-        font-size: 9px;
-        vertical-align: super;
-    }
+header span.label {
+  font-size: 9px;
+  vertical-align: super;
+}
 
 .schedule article {
-    padding: 10px 5px;
-    overflow: hidden;
-    font-size: 14px;
+  padding: 10px 5px;
+  overflow: hidden;
+  font-size: 14px;
 }
 
 .ranking {
-    background: #98C59E;
-    margin-top: 15px;
-    width: 100%;
-    float: left;
+  background: #98c59e;
+  margin-top: 15px;
+  width: 100%;
+  float: left;
 }
 
-    .ranking table {
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-    }
+.ranking table {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
 
-        .schedule article table th, .ranking table th {
-            border-bottom: 2px solid #000;
-            text-align: center;
-        }
+.schedule article table th,
+.ranking table th {
+  border-bottom: 2px solid #000;
+  text-align: center;
+}
 
-    .schedule article table, .ranking table {
-        background: #98C59E;
-        cursor: pointer;
-        width: 100%;
-    }
+.schedule article table,
+.ranking table {
+  background: #98c59e;
+  cursor: pointer;
+  width: 100%;
+}
 
-        .schedule article table td, .ranking table td {
-            border-right: 1px solid #000;
-            text-align: center;
-            line-height: 18px;
-            font-size: 12px;
-        }
+.schedule article table td,
+.ranking table td {
+  border-right: 1px solid #000;
+  text-align: center;
+  line-height: 18px;
+  font-size: 12px;
+}
 
-        .schedule article table tbody tr{
-            border-bottom: 1px solid #000;
-            padding: 3px 0;
-        }
+.schedule article table tbody tr {
+  border-bottom: 1px solid #000;
+  padding: 3px 0;
+}
 
-        .schedule article table tbody tr td{ 
-            line-height: 25px;
-        }
+.schedule article table tbody tr td {
+  line-height: 25px;
+}
 
-        .ranking table tr {
-            border-bottom: 1px solid #000;
-        }
+.ranking table tr {
+  border-bottom: 1px solid #000;
+}
 
-        .ranking table td {
-            border-right: 1px solid #000;
-            text-align: center;
-            line-height: 24px;
-            font-size: 16px;
-        }
+.ranking table td {
+  border-right: 1px solid #000;
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+}
 
+.schedule article table tr td.big {
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  padding-top: 5px;
+}
 
-        .schedule article table tr td.big {
-            font-weight: bold;
-            color: #FFF;
-            font-size: 16px;
-            padding-top: 5px;
-        }
+.schedule article table tbody tr:hover,
+.ranking table tbody tr:hover {
+  background: #ccc;
+  animation: 0;
+}
 
-        .schedule article table tbody tr:hover, .ranking table tbody tr:hover {
-            background: #CCC;
-            animation: 0;
-        }
+.schedule article table td:last-child,
+.ranking table tbody tr:last-child {
+  border-right: none;
+}
 
-        .schedule article table td:last-child, .ranking table tbody tr:last-child {
-            border-right: none;
-        }
+.schedule article table tbody tr:nth-child(even),
+.ranking table tbody tr:nth-child(even) {
+  color: white;
+}
 
-        .schedule article table tbody tr:nth-child(even), .ranking table tbody tr:nth-child(even) {
-            color: white;
-        }
-
-        .schedule article table tbody tr td div.teacher {
-            display: block;
-            width: 100%;
-            font-size: 12px;
-            text-align: left;
-            padding-left: 3px;
-        }
+.schedule article table tbody tr td div.teacher {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 3px;
+}
 
 .schedule div.teacher .name {
-    display: block;
-    font-weight: bold;
-    width: 75%;
+  display: block;
+  font-weight: bold;
+  width: 75%;
 }
 
 .schedule div.teacher .time {
-    display: block;
-    font-size: 9px;
-    color: #008845;
-    width: 35%;
-    float: right;
+  display: block;
+  font-size: 9px;
+  color: #008845;
+  width: 35%;
+  float: right;
 }
 
 .schedule div.teacher .observation {
-    display: block;
-    font-size: 9px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 85%;
+  display: block;
+  font-size: 9px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 85%;
 }
 
 .schedule.schedule.fixButtons {
-    text-align: center;
+  text-align: center;
 }
 
 .schedule.fixButtons div {
-    min-height: 50px;
-    padding: 10px;
+  min-height: 50px;
+  padding: 10px;
 }
 
 .schedule.fixButtons .btn-group button {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .dials li a div.monitor {
-    float: right;
-    width: 16px;
-    height: 16px;
-    padding-right: 5px;
+  float: right;
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
 }
 
-    .dials li a div.monitor img {
-        width: 16px;
-        height: 16px;
-    }
+.dials li a div.monitor img {
+  width: 16px;
+  height: 16px;
+}
 
 .dials li a img {
-    width: 150px;
-    height: 150px;
-    margin-left: 12px;
+  width: 150px;
+  height: 150px;
+  margin-left: 12px;
 }
 
 article#tab-ramais {
-    color: #000;
+  color: #000;
 }
 
-    article#tab-ramais a {
-        color: #007bff;
-    }
+article#tab-ramais a {
+  color: #007bff;
+}
 
 .blinking {
-    background: gold;
-    font-weight: bold;
-    font-size: 18px;
-    -webkit-animation-name: blinker;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-name: blinker;
-    -moz-animation-duration: 3s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
-    animation-name: blinker;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  background: gold;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: blinker;
+  -moz-animation-duration: 3s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: blinker;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 #dashboard iframe {
-	width: 100%;
+  width: 100%;
 }
 
 .databaseLocks table {
-	font-size: 2.2em;
+  font-size: 2.2em;
 }
 
 @-moz-keyframes blinker {
-    0% {
-        opacity: 1.0;
-    }
+  0% {
+    opacity: 1;
+  }
 
-    50% {
-        opacity: 0.0;
-    }
+  50% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1.0;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes blinker {
-    0% {
-        opacity: 1.0;
-    }
+  0% {
+    opacity: 1;
+  }
 
-    50% {
-        opacity: 0.0;
-    }
+  50% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1.0;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes blinker {
-    0% {
-        opacity: 1.0;
-    }
+  0% {
+    opacity: 1;
+  }
 
-    50% {
-        opacity: 0.0;
-    }
+  50% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1.0;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (min-width: 1900px) {
-    .tc_card {
-        width: 14% !important;
-    }
+  .tc_card {
+    width: 14% !important;
+  }
 
-    .dials li a img {
-        width: 120px;
-        height: 120px;
-        margin-left: 2px;
-    }
+  .dials li a img {
+    width: 120px;
+    height: 120px;
+    margin-left: 2px;
+  }
 
-    .dials li a div.monitor {
-        padding-right: 25px;
-    }
+  .dials li a div.monitor {
+    padding-right: 25px;
+  }
 
-    .tc_body .tc_card .tc_inner_card .tc_click_target {
-        padding: 10px 0 0 30px !important;
-        min-height: 180px;
-    }
+  .tc_body .tc_card .tc_inner_card .tc_click_target {
+    padding: 10px 0 0 30px !important;
+    min-height: 180px;
+  }
 }
 
 @media (max-width: 1600px) {
-    section.operation .tc_card {
-        max-width: 165px;
-    }
+  section.operation .tc_card {
+    max-width: 165px;
+  }
 
-    section.tabs .dials {
-        width: 96%;
-        float: none;
-        margin: auto;
-    }
+  section.tabs .dials {
+    width: 96%;
+    float: none;
+    margin: auto;
+  }
 
-    section.tabs .tc_card {
-        max-width: 180px;
-    }
+  section.tabs .tc_card {
+    max-width: 180px;
+  }
 
-    .dials li a img {
-        width: 120px;
-        height: 120px;
-        margin-left: 2px;
-    }
+  .dials li a img {
+    width: 120px;
+    height: 120px;
+    margin-left: 2px;
+  }
 
-    .dials li a div.monitor {
-        padding-right: 25px;
-    }
+  .dials li a div.monitor {
+    padding-right: 25px;
+  }
 
-    .tc_body .tc_card .tc_inner_card .tc_click_target {
-        padding: 10px 0 0 30px !important;
-        min-height: 180px;
-    }
+  .tc_body .tc_card .tc_inner_card .tc_click_target {
+    padding: 10px 0 0 30px !important;
+    min-height: 180px;
+  }
 }
 
 @media (max-width: 1280px) {
+  .dials li a img {
+    width: 100px;
+    height: 100px;
+    margin-left: 2px;
+  }
 
-    .dials li a img {
-        width: 100px;
-        height: 100px;
-        margin-left: 2px;
-    }
-
-    .tc_body .tc_card .tc_inner_card .tc_click_target {
-        padding: 10px 0 0 30px !important;
-        min-height: 175px;
-    }
+  .tc_body .tc_card .tc_inner_card .tc_click_target {
+    padding: 10px 0 0 30px !important;
+    min-height: 175px;
+  }
 }
 
 @media (max-width: 1024px) {
-    section#home {
-        width: 100%;
-    }
+  section#home {
+    width: 100%;
+  }
 
-    section.operation {
-        width: 70%;
-    }
+  section.operation {
+    width: 70%;
+  }
 
-        section.operation ul.dials {
-            width: 99%;
-            margin-left: 1%;
-        }
+  section.operation ul.dials {
+    width: 99%;
+    margin-left: 1%;
+  }
 
-    .dials li a img {
-        width: 80px;
-        height: 80px;
-        margin-left: 2px;
-    }
+  .dials li a img {
+    width: 80px;
+    height: 80px;
+    margin-left: 2px;
+  }
 
-    .dials li a div.monitor {
-        padding-right: 25px;
-    }
+  .dials li a div.monitor {
+    padding-right: 25px;
+  }
 
-    .tc_card {
-        min-width: 30%;
-    }
+  .tc_card {
+    min-width: 30%;
+  }
 
-    .tc_body .tc_card .tc_inner_card .tc_click_target {
-        padding: 10px 0 0 30px !important;
-        min-height: 150px;
-    }
+  .tc_body .tc_card .tc_inner_card .tc_click_target {
+    padding: 10px 0 0 30px !important;
+    min-height: 150px;
+  }
 }
 
 @media (max-width: 768px) {
-    section#home {
-        width: 86%;
-    }
+  section#home {
+    width: 86%;
+  }
 
-    section nav {
-        font-size: 14px;
-    }
+  section nav {
+    font-size: 14px;
+  }
 
-    section.operation {
-        width: 100%;
-        float: none;
-    }
+  section.operation {
+    width: 100%;
+    float: none;
+  }
 
-        section.operation header.banner {
-            width: 100%;
-            text-align: center;
-        }
+  section.operation header.banner {
+    width: 100%;
+    text-align: center;
+  }
 
-        section.operation ul.dials {
-            width: 95%;
-            float: none;
-            margin: auto;
-        }
+  section.operation ul.dials {
+    width: 95%;
+    float: none;
+    margin: auto;
+  }
 
-    .dials li a img {
-        width: 100px;
-        height: 100px;
-        margin-left: 2px;
-    }
+  .dials li a img {
+    width: 100px;
+    height: 100px;
+    margin-left: 2px;
+  }
 
-    .tc_body .tc_card .tc_inner_card .tc_click_target {
-        padding: 10px 0 0 30px !important;
-        min-height: 160px;
-    }
-	
-	section.aside {
-		margin: 30px auto;
-		width: calc(98% - 5px);
-		float: none;
-		clear: both;
-    }
+  .tc_body .tc_card .tc_inner_card .tc_click_target {
+    padding: 10px 0 0 30px !important;
+    min-height: 160px;
+  }
+
+  section.aside {
+    margin: 30px auto;
+    width: calc(98% - 5px);
+    float: none;
+    clear: both;
+  }
 }
 
 @media (max-width: 640px) {
-    section nav {
-        font-size: 12px;
-    }
+  section nav {
+    font-size: 12px;
+  }
 
-    section.operation {
-        width: 95%;
-        margin: auto;
-        float: none;
-    }
+  section.operation {
+    width: 95%;
+    margin: auto;
+    float: none;
+  }
 
-        section.operation ul.dials {
-            width: 75%;
-            float: none;
-            margin: auto;
-        }
+  section.operation ul.dials {
+    width: 75%;
+    float: none;
+    margin: auto;
+  }
 
+  .dials li a img {
+    width: 150px;
+    height: 150px;
+    margin-left: 2px;
+  }
 
-    .dials li a img {
-        width: 150px;
-        height: 150px;
-        margin-left: 2px;
-    }
+  .tc_card {
+    min-width: 250px;
+  }
 
-    .tc_card {
-        min-width: 250px;
-    }
+  .tc_body .tc_card .tc_inner_card .tc_click_target {
+    padding: 10px 0 0 30px !important;
+    min-height: 250px;
+    font-size: 14px !important;
+  }
 
-    .tc_body .tc_card .tc_inner_card .tc_click_target {
-        padding: 10px 0 0 30px !important;
-        min-height: 250px;
-        font-size: 14px !important;
-    }
-
-	section.aside {
-     width: calc(98% - 5px);
-	 margin: 30px auto;
-        float: none;
-        font-size: 14px;
-    }
+  section.aside {
+    width: calc(98% - 5px);
+    margin: 30px auto;
+    float: none;
+    font-size: 14px;
+  }
 }
 
 .alarm {
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	animation: alarm 0.5s infinite;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  animation: alarm 0.5s infinite;
 }
 
 .faster {
-	background: purple !important;
-	animation: alarm 0.2s infinite;
+  background: purple !important;
+  animation: alarm 0.2s infinite;
 }
 
 @keyframes alarm {
-    from { opacity: 0; }
-    50% { opacity: .7;}
-    to { opacity: 0; }
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 0;
+  }
 }
-
-

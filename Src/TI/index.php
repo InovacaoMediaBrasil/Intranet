@@ -1,18 +1,21 @@
-<?php 
+<?php
 error_reporting(E_ALL);
 $documentsDir = "Docs";
 $toolsDir = "Tools";
 $playgroundDir = "Playground";
-$ignorePaths = array (".", "..", "aspnet_client");
-function read($dir){
-	global $ignorePaths;
-	$handle = opendir($dir);
-	while($file = readdir($handle))
-		if(is_dir($dir."/".$file) && !in_array($file, $ignorePaths))
-			echo "<li class='list-group-item'><a href='".$dir."/".$file."'>".preg_replace('/(?<!^)([A-Z])/', ' \\1', $file)."</a></li>\r\n";
-		else if (is_file($dir."/".$file) && !in_array($file, $ignorePaths))
-			echo "<li class='list-group-item'><a href='".$dir."/".$file."'>".$file."</a></li>\r\n";
-	closedir($handle);
+$ignorePaths = array(".", "..", "aspnet_client");
+function read($dir)
+{
+    global $ignorePaths;
+    $handle = opendir($dir);
+    while ($file = readdir($handle)) {
+        if (is_dir($dir."/".$file) && !in_array($file, $ignorePaths)) {
+            echo "<li class='list-group-item'><a href='".$dir."/".$file."'>".preg_replace('/(?<!^)([A-Z])/', ' \\1', $file)."</a></li>\r\n";
+        } elseif (is_file($dir."/".$file) && !in_array($file, $ignorePaths)) {
+            echo "<li class='list-group-item'><a href='".$dir."/".$file."'>".$file."</a></li>\r\n";
+        }
+    }
+    closedir($handle);
 }
 ?>
 <!DOCTYPE html>
