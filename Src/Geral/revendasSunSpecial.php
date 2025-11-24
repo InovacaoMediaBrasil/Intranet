@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<?php 
+<?php
     require_once("includes/header.php");
 ?>
 </head>
@@ -402,8 +402,8 @@
             </tbody>
         </table>
     </section>
-    <?php 
+    <?php
     require_once("includes/footer.php");
-    ?>   
+?>   
 </body>
 </html>
