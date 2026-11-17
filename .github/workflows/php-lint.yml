@@ -7,15 +7,16 @@ on:
   pull_request:
   workflow_dispatch:
 
-jobs:
+permissions:
+  contents: read
+  pull-requests: write
 
+jobs:
   php-lint:
     runs-on: ubuntu-latest
-
     steps:
+      - name: Checkout
+        uses: actions/checkout@v7
 
-        - name: Checkout code
-          uses: actions/checkout@v7
-
-        - name: Check PHP Lint
-          uses: michaelw90/PHP-Lint@master
+      - name: PHP Lint
+        uses: guibranco/github-php-lint-action@v1.1.0
