@@ -10,7 +10,9 @@ concurrency:
 
 jobs:
   size-label:
-    permissions: write-all
+    permissions:
+      contents: read
+      pull-requests: write
     runs-on: ubuntu-latest
 
     steps:
